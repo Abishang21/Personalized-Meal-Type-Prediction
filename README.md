@@ -119,7 +119,7 @@ The first model trained was a Logistic Regression model to predict MealType, whi
 
 - F1 scores were strong for Dinner and Lunch, but low for Breakfast and Snack
 
-![image.png](attachment:image.png)
+![1.png](https://github.com/Abishang21/Personalized-Meal-Type-Prediction/blob/96e543b93da1cfc7d7977330e4de4312e21292cf/Images/1.png)
 
 **Tackling the Class Imbalance**
 
@@ -127,7 +127,8 @@ The model was favoring the class with the most examples(Dinner). To fix this  bo
 
 - Both balancing techniques (class weights and SMOTE) helped improve fairness especially for the smaller classes like Snack and Breakfast but the overall accuracy dropped to 38%
 
-![image-2.png](attachment:image-2.png) ![image-3.png](attachment:image-3.png)
+![2.png](https://github.com/Abishang21/Personalized-Meal-Type-Prediction/blob/96e543b93da1cfc7d7977330e4de4312e21292cf/Images/2.png)
+![3.png](https://github.com/Abishang21/Personalized-Meal-Type-Prediction/blob/96e543b93da1cfc7d7977330e4de4312e21292cf/Images/3.png)
 
 
 **Recommendations**
@@ -147,7 +148,7 @@ Accuracy was around 61%, which is a clear improvement over Logistic Regressionâ€
 
 - Breakfast (Class 0) and Brunch (Class 1) had moderate results but better than before.
 
-![image-2.png](attachment:image-2.png)
+![4.png](https://github.com/Abishang21/Personalized-Meal-Type-Prediction/blob/96e543b93da1cfc7d7977330e4de4312e21292cf/Images/4.png)
 
 **Improving Decision Tree Performance**
 
@@ -167,7 +168,7 @@ Accuracy jumped to 94%, a huge improvement from the previous 61%.
 
 - Snack (Class 4) has the highest recall (96%) meaning very few snack items were missed.
 
-![image-3.png](attachment:image-3.png)
+![5.png](https://github.com/Abishang21/Personalized-Meal-Type-Prediction/blob/96e543b93da1cfc7d7977330e4de4312e21292cf/Images/5.png)
 
 The tuned model did an excellent job at identifying all classes. Misclassifications are minimal
 
