@@ -19,7 +19,12 @@ The Python scripts used to inspect and clean the data for this analysis can be f
 
 Python scripts used for feature engineering and model evaluation are available here: [Python Evaluation Scripts](https://github.com/Abishang21/Personalized-Meal-Type-Prediction/blob/master/Feature_Engineering_Model_Evaluation.ipynb)
 
+**Tools & Technologies**
 
+• Python
+• Pandas, NumPy
+• Scikit-learn (for modeling and evaluation)
+• Matplotlib, Seaborn (for visualizations)
 
 ## Data Structure &  Checks
 
